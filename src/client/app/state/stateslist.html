@@ -1,0 +1,47 @@
+<div data-ng-controller="StatesListController as vm"  class="container-fluid ">
+   <div class="row" >
+      <div class="col-lg-2" ng-click="vm.gotoHome()">
+         <span class="glyphicon glyphicon-remove text-left close-btn-position text-danger "></span>  
+      </div>
+      <div class="col-lg-8">        
+         <h2 class="row text-center app-fg-primary-dark-color">{{vm.title}}</h2>
+      </div>        
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        	<div class="form-group">
+                <div class="icon-addon addon-lg">
+                    <input type="text" placeholder="State name" class="form-control" ng-model="stateName">
+                    <label for="State Name" class="glyphicon glyphicon-search" rel="tooltip" title="name"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <ul class="list-group" ng-show="vm.states.length">
+             <li class="list-group-item animated zoomIn"   ng-repeat="state in filtered = (vm.states | filter : stateName)">
+                <h4 >{{state.name}}</h4>
+                <h6 class="text-muted " >capital:</h6>
+                <h5 >{{state.capital}}</h5> 
+                <h6 class="text-muted" >largest City:</h6>
+                <h5 ng-show="state.largest_city != null">{{state.largest_city}}</h5>  
+                <h5 ng-show="state.largest_city == null">Not Available</h5>  
+              </li>
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12"></div>
+    </div>
+    <div ng-show="vm.states.length == 0" >
+        <div class="panel panel-default text-left" >
+            <div class=" animated zoomIn"  >
+                <h4 class="hide-overflow-text text-center text-danger">No Records Found.. Try other country</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

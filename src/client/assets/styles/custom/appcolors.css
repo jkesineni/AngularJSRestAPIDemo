@@ -1,0 +1,60 @@
+.app-page-bg-color
+{
+    color: #fff;
+}
+.app-bg-primary-color
+{
+   background: #0dc4ac;
+}
+
+.app-bg-primary-dark-color
+{
+   background: #00a58e !important;
+}
+
+.app-bg-primary-light-color
+{
+   background: #35d2be;
+}
+
+.app-bg-second-color
+{
+   background: #ffffff;
+}
+
+.app-bg-second-dark-color
+{
+   background: #777;
+}
+
+.app-bg-primary-light-color
+{
+   background: #eee;
+}
+
+.app-fg-primary-color
+{
+   color: #0dbca5;
+}
+.app-fg-primary-dark-color
+{
+   color: #00a58e !important;
+}
+.app-fg-second-color
+{
+   color: #fff;
+}
+
+
+.app-fg-second-dark-color
+{
+    color: #777;
+}
+
+.app-hilight-color
+{
+    color:yellow;
+}
+
+
+

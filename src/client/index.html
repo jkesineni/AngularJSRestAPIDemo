@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html data-ng-app="sampleapp">
+<head>
+    <title>Sample Demo</title>
+    <link rel="stylesheet" href="assets/styles/lib/bootstrap.css"/>
+	<link rel="stylesheet" href="assets/styles/lib/animate.css"/>
+    <link rel="stylesheet" href="assets/styles/custom/styles.css"/>
+    <link rel="stylesheet" href="assets/styles/custom/animations.css"/>
+    <link rel="stylesheet" href="assets/styles/custom/basefontsize.css"/>
+    <link rel="stylesheet" href="assets/styles/custom/appcolors.css"/>
+    <link rel="stylesheet" href="assets/styles/custom/countrylist.css"/>
+    <link rel="stylesheet" href="assets/styles/custom/stateslist.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body class="container-fluid">
+    
+   <div class="page page-country"   ng-view> </div>
+    
+    
+    <!-- Scripts -->
+    <script src="lib/jquery-2.0.3.js"></script>
+    <script src="lib/bootstrap.js"></script>
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-route.js"></script>
+    <script src="lib/angular-animate.js"></script>
+
+    <script src="app/app.module.js"></script>
+    
+    <script src="app/country/country.controller.js"></script>
+    <script src="app/country/country.service.js"></script>
+    
+    <script src="app/state/stateslist.controller.js"></script>
+    <script src="app/state/stateslist.service.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h6 {
+ padding: 0px;
+    margin: 0px;
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 1200px) {
+h1
+{
+ font-size: 18px;;
+}
+h4
+{
+ font-size: 15px;
+}
+h5
+{
+ font-size: 12px;
+
+}
+h6
+{
+ font-size: 10px;
+}
+
+}

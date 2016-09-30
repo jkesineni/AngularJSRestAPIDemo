@@ -1,0 +1,21 @@
+/* these are for List items */
+.country-list-group {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.country-list-group-item{
+    background-color:#fff ;
+    color: #00a58e;
+    padding-bottom: 15px !important;
+}
+
+.country-list-group-item:hover {
+      background-color: #00a58e;
+     color: white;
+}
+
+.country-list-group-item:active {
+      background-color: #0dc4ac;
+     color: #00a58e;
+}  

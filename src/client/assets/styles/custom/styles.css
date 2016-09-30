@@ -1,0 +1,150 @@
+body {
+    margin: 3em 0 0 0;
+}
+
+.row {
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+
+.close-btn-position
+{
+    font-size: 20px;
+    vertical-align: middle;
+    align-self: center;
+}
+
+
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 4px;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
+
+
+
+
+
+/* these are for List items */
+.list-group {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+}
+.list-group-item{
+    background-color:#fff ;
+    color: #00a58e;
+    padding-bottom: 5px !important;
+}
+
+.list-group-item:hover {
+      background-color: #00a58e;
+     color: white;
+}
+
+.list-group-item:active {
+      background-color: #0dc4ac;
+     color: #00a58e;
+}    
+
+.list-group-item  h4{
+    padding: 0px ;
+    margin: 0px ;
+}
+
+.list-group-item  h5{
+    padding: 0px ;
+    margin: 0px ;
+    padding-top: 2px;
+    padding-left: 5px;
+    color: gray;
+}
+
+.list-group-item  h6{
+    padding: 0px ;
+    margin: 0px ;
+    padding-top: 5px;
+    color: silver;
+
+}
+
+.list-group-item:hover h5{
+      background-color: #00a58e;
+     color: white;
+}
+
+.list-group-item:hover h6 {
+      background-color: #00a58e;
+     color: white;
+}
